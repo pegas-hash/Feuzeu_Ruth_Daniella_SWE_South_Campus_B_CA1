@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+      .body{
+        background-color: rgb(29, 29, 44);
+        color: white;
+        height: 1000px;
+      }
+      .body-1{
+        padding-top: 90px;
+       padding-left: 200px;
+      }
+   .header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    background-color: rgb(20, 19, 19);
+
+   }
+   .middle-section{
+    flex: 1;
+    margin-left: 70px;
+   
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(197, 196, 196);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.search-icon{
+    height: 30px;
+}
+.search-button{ 
+    height: 40px;
+    width: 60px;
+    background-color: rgb(241, 241, 241);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(197, 196, 196);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.voice-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+   .pic-head{
+    width: 50px;
+    border-radius: 20px;
+   }
+   .text{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+   }
+   .pic{
+    display: inline-block;
+   }
+   .picture{
+    width: 250px;
+    border-radius: 10px;
+   
+   }
+   .first{
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 10px 50px rgb(153, 135, 135);
+    border-radius: 5px;
+    overflow: hidden;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+   }
+   .second{
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 10px 50px rgb(153, 135, 135);
+    border-radius: 5px;
+    overflow: hidden;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
+   }
+   .size{
+    font-size: 20px;
+   }
+   .search-bar{
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+   }
+    </style>
+  </head>
+  <body class="body">
+    <div class="header">
+      <div class="left-section">
+        <img class="pic-head" src="Assets/img/1.jpg">
+        Profile
+     
+  </div>
+  <div class="middle-section">
+    <input class="search-bar" type="search" placeholder="search">
+  
+  </div>
+  </div>
+  <div class="body-1">
+  <div class="text">
+    <h1 class="size">Welcome to my world</h1>
+    <p1>I'm <strong>Augustine Sevidzem,</strong> a student at the Yaounde International Business School</p1>
+    <p2> I am a level 1 student in the department of Software Engineering</p2>
+  </div>
+  <div class="pic">
+    <img class="picture" src="Assets/img/1.jpg">
+  </div>
+    <h2>What I do</h2>
+    <div class="first">
+    <h><strong>App and Web development</strong></h>
+      <p>I design and build both websites and Applications</p>
+    </p1>
+  </div>
+  <div class="second">
+    <h><strong>Graphic Designing</strong></h>
+    <p>I design Flyers, Logos, Banners and others</p>
+  </div>
+ </div>
+  
+  </body>
+</html>
